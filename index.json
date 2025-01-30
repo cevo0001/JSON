@@ -1,16 +1,51 @@
 {
-    "navne":{
+    "navne":[{
+        "id":1,
         "fornavn": "Celine Sophie",
         "efternavn": "von Christierson"
-    },
+    }, 
+    {   "id":2,
+       "fornavn": "Viola",
+        "efternavn": "Holm Knudsen"
+    }
+],
+
+"om":[{
+    "id":1,
     "alder": 26,
     "studerende": true,
-    "interesser": ["venner", "natur", "dyr", "sang"],
-    "adresse": {
+    "interesser": ["venner", "natur", "ski"],
+    "fødselsdato": "1998-06-26"
+},
+{ "id":2,
+    "alder": 22,
+    "studerende": true,
+    "interesser": ["design", "mode", "mad"],
+    "fødselsdato": "31-07-2002"
+}],
+    
+"adresse": [{
+        "id":1,
         "vej": "Adelgade 106",
         "by": "København K",
         "postnummer": 1304
     },
-    "fødselsdato": "1998-06-26"
+    {
+        "id":2,
+        "vej": "Nadine Gordimers vej 6",
+        "by": "København S",
+        "postnummer": 2300
+    }],
+
+"kontakt": [{
+    "id":1,
+    "email": "celinesophiec@gmail.com",
+    "tlf": "+45 29464942"
+},
+{
+    "id":2,
+    "email": "violahk4@gmail.com",
+    "tlf": "+45 53293900"
+}]
     
 }
