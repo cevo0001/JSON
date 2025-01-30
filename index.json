@@ -1,0 +1,16 @@
+{
+    "navne":{
+        "fornavn": "Celine Sophie",
+        "efternavn": "von Christierson"
+    },
+    "alder": 26,
+    "studerende": true,
+    "interesser": ["venner", "natur", "dyr", "sang"],
+    "adresse": {
+        "vej": "Adelgade 106",
+        "by": "København K",
+        "postnummer": 1304
+    },
+    "fødselsdato": "1998-06-26"
+    
+}
